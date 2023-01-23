@@ -79,5 +79,5 @@ while True:
     if continueGame == "Igen" or continueGame == "igen":
         continue
     else:
-        print("\n","Játék vége! Összesen ", sumScore, " / ", rounds*10, "jó válaszod volt!")
+        print("\n","Játék vége! Összesen ", sumScore, "jó válaszod volt, ", rounds*10," feladatból!")
         break
