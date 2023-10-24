@@ -1,8 +1,8 @@
 import random
 
-myNumber = random.randint(0,100)
+myNumber = random.randint(0,1000)
 rounds = 0
-print("Gondoltam egy számra 1 és 100 között!")
+print("Gondoltam egy számra 1 és 1000 között!")
 while True:
     rounds += 1
     playerNumber = int(input("Tippelj!: "))    
@@ -19,5 +19,5 @@ while True:
         continue
     else:
         print("Szép munka! A szám amire gondoltam: ", myNumber,"\n",
-              "Ugyan kellett hozzá ", rounds, "esély, de kitaláltad!")
+              "Kellett hozzá ", rounds, "próbálkozás, de kitaláltad!")
         break
